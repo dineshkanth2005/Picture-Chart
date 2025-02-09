@@ -1,4 +1,4 @@
-import PictureChartSearch from "@/components/PictureChartSearch"
+import PictureChartSearch from '../components/PictureChartSearch'
 
 export default function Home() {
   return (
@@ -8,4 +8,3 @@ export default function Home() {
     </main>
   )
 }
-
