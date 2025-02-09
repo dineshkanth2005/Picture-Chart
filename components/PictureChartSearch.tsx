@@ -1,10 +1,9 @@
-"use client"
+'use client'
 
-import { useState, useEffect, useRef } from "react"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { fetchAndParseCsv, type PictureChartItem } from "@/utils/csvParser"
-
+import { useState, useEffect, useRef } from 'react'
+import { Input } from "./ui/input"
+import { Button } from "./ui/button"
+import { fetchAndParseCsv, PictureChartItem } from '../utils/csvParser'
 export default function PictureChartSearch() {
   const [items, setItems] = useState<PictureChartItem[]>([])
   const [query, setQuery] = useState("")
